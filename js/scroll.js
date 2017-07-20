@@ -1,6 +1,7 @@
 
 $(document).on('click', 'a', function(event) {
     alert("moliiiim teeee");
+    console.log("nestooo");
         if (
             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
             &&
