@@ -1,7 +1,6 @@
 
 $(document).on('click', 'a', function(event) {
-        // On-page links
-    event.preventDefault();
+    alert("moliiiim teeee");
         if (
             location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
             &&
