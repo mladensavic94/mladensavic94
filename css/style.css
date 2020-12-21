@@ -16,6 +16,8 @@ body {
   display: flex;
   justify-content: center;
   z-index: 1000;
+  background-color: #31b0d5;
+ 
 }
 
 .navbar a {
@@ -37,7 +39,7 @@ body {
   height: 100vh; /*height to 100% of view height*/
   background: url('../img/background.jpg');
   background-size:cover;
-  box-shadow:inset 0 0 0 2000px rgba(49,176,213,0.5);
+  box-shadow:inset 0 0 0 2000px rgba(49,176,213,0.8);
   margin-bottom: 0; /*no bottom margin*/
 	
   display: flex;
